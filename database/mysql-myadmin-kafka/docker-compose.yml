@@ -41,7 +41,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
       - ./kafka_data:/bitnami/kafka      # After run, add permissions: chmod -R 777 ./kafka_data 
-      - ./kafka_logs:/opt/bitnami/kafka/logs    # After run, add permissions: chmod -R 777 ./kafka_logs       
+      - ./kafka_logs:/opt/bitnami/kafka/logs    # After run, add permissions: chmod -R 777 ./kafka_logs           
 
 networks:
   app-network:
